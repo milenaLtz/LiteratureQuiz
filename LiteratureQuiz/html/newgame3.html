@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="../css/newgame3.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+    <div class="quiz" id="quiz">
+        <div class="questions" id="questions">
+            <!-- <div class="items">
+                <div class="question">Narnia</div>
+                <ul class="answer">
+                    <li>
+                        <label>
+                            <input type="radio" name="q1">
+                            C S Lewis
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="q1">
+                            Conan Doyle
+                        </label>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+
+        <div class="indicator" id="indicator">1/10</div>
+
+        <div class="results" id="results">
+            <div class="res_items">
+                <div class="res_question" id="res_questions">Narnia</div>
+                <ul class="res_answer">
+                    <li>C S Lewis</li>
+                    <li>Conan Doyle</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="control">
+            <button class="back" id="back" onclick="document.location='start.html'"><span class="material-icons md-18">east</span></button>
+            <button class="next" id="next" disabled>Next</button>
+        </div>
+
+        <div class="control_res">
+            <button class="back_res" id="back-res" onclick="document.location='start.html'"><span class="material-icons md-18">east</span></button>
+        </div>
+
+        <div class="picture" id="picture">
+            Congrats, <br/>you did it!
+        </div>
+
+    </div>
+    
+    <script src="../js/newgame3.js"></script>
+</body>
+</html>
